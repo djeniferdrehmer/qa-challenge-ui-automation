@@ -16,19 +16,22 @@ The framework is built using **Playwright + Cucumber.js** with the **Page Object
 
 ## Project Structure
 
-├── features/               # feature files
+```
+.
+├── features/                 # feature files
 │   ├── signin.feature
 │   └── signup.feature
-├── pages/                  # page objects logic and selectors
+├── pages/                    # page objects model
 │   ├── signin.page.js
 │   └── signup.page.js
-├── steps/                  # step definitions
+├── steps/                    # step definitions
 │   ├── common.steps.js
 │   ├── signin.steps.js
 │   └── signup.steps.js
-├── support/                # hooks and world context
-│   ├── hooks.js
-│   └── world.js
+└── support/                  # hooks & world context
+    ├── hooks.js
+    └── world.js
+```
 
 ---
 
